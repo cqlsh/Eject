@@ -1,0 +1,28 @@
+name: Windows build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+permissions: {}
+
+jobs:
+  build:
+    runs-on: windows-2022
+    strategy:
+      fail-fast: false
+      matrix:
+        configuration:
+          - Debug
+          - Release
+    steps:
+      - name: Check out the commit
+        shell: bash
+        run: |
+          git init --quiet
+          git fetch --quiet --depth 1 "${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}" "${GITHUB_SHA}"
+          git checkout --quiet FETCH_HEAD
+      - name: Build
+        run: ./Scripts/Windows/Build.ps1 -Configuration ${{ matrix.configuration }}

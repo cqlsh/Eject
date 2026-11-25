@@ -1,0 +1,17 @@
+/Build/
+/CMakeUserPresets.json
+/compile_commands.json
+
+.vs/
+.vscode/
+.idea/
+.cache/
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+*.pem
+*.key
+*.pfx
+*.p12

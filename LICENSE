@@ -1,0 +1,167 @@
+Eject License
+Version 1.0
+
+Copyright (c) 2026 cqlsh. All rights reserved.
+
+1. Ownership
+
+Eject, including its source code, compiled files, in-game interface,
+graphics, documentation, and other included materials (collectively, the
+"Software"), is proprietary software protected by applicable copyright and
+other intellectual property laws.
+
+The Software is licensed, not sold. Except for the limited rights expressly
+granted under this License, all rights, title, and interest in and to the
+Software remain with the copyright holder.
+
+2. Permitted Access and Use
+
+You may view and download the source code from the copyright holder's
+official repository solely for your own private, non-commercial inspection
+and study.
+
+Access to or downloading of the source code does not grant permission to
+compile, build, execute, install, or use the Software, except where such
+rights are expressly granted by the copyright holder.
+
+You may install and use copies of the compiled Software that are officially
+provided by the copyright holder. The free features may be used free of
+charge. Features that require a license key may be used only with a valid
+license key and solely in accordance with the license agreement or other
+authorization issued to you.
+
+The Software is intended solely for use with the video games Euro Truck
+Simulator 2 and American Truck Simulator. It must not be used to control
+real vehicles or in any safety-critical environment.
+
+Any authorization to use the Software is personal and limited to the scope
+expressly granted by the copyright holder.
+
+3. Restrictions
+
+Except where expressly permitted by this License or applicable law, and
+without prior written permission from the copyright holder, you may not:
+
+- Copy, reproduce, redistribute, publish, or make the Software or any part
+  of it available to third parties.
+- Modify, adapt, translate, alter, reverse engineer, or create derivative
+  works of the Software, except to the extent such restrictions are
+  prohibited by applicable mandatory law.
+- Publish, distribute, or make available modified, adapted, or derivative
+  versions of the Software.
+- Sell, sublicense, rent, lease, assign, transfer, or otherwise commercially
+  exploit the Software or any part of it.
+- Share, transfer, resell, publish, disclose, or distribute license keys,
+  credentials, or other access authorization.
+- Circumvent, disable, remove, modify, or interfere with copyright notices,
+  license keys, technical protection measures, or licensing mechanisms.
+- Use the source code or any part of it in other software or products.
+
+4. Contributions
+
+You may fork the copyright holder's official repository on GitHub, modify
+the source code in your fork, and make your changes available within GitHub
+solely to prepare, submit, and discuss a contribution to the Software by
+pull request. For this purpose only, you may also compile and run your
+modified copy privately to test the contribution. A fork must not be used
+for any other purpose, including distributing the Software or developing it
+independently. This License applies to forks as well.
+
+A contribution is reviewed and may be accepted only if you have accepted
+the Contributor License Agreement ("CLA.md") in its current version and
+have created the contribution yourself, without the use of AI tools. This
+covers every step of the work, including design, code, tests,
+documentation, and the text of commits and pull requests.
+
+"AI tools" means software that uses machine learning, in particular
+language or code models, to generate, complete, modify, translate,
+summarize, or explain content, for example chat assistants, code
+assistants, AI-based autocompletion, and AI agents. Compilers, debuggers,
+linters, formatters, static analysis tools, and conventional autocompletion
+or spell checking not based on machine learning are not AI tools.
+
+The copyright holder may reject, remove, or revert a contribution and
+exclude a contributor where there is reasonable doubt that these conditions
+were met. The rule on AI tools applies to contributors only. It does not
+apply to the copyright holder or to persons acting on the copyright
+holder's behalf.
+
+There is no entitlement to have a contribution reviewed, accepted, or
+retained. The rights in contributions are governed by the Contributor
+License Agreement.
+
+5. Additional Permissions
+
+The copyright holder may, at their sole discretion, grant permissions that
+exceed the rights provided by this License.
+
+Any additional permission, exception, or authorization must be granted in
+writing by the copyright holder. Such permission may be limited in scope,
+duration, purpose, or recipient.
+
+No additional rights shall be implied from the public availability of the
+source code, repository, documentation, or Software.
+
+6. Third-Party Components
+
+The Software may include third-party components, including components
+located in the "ThirdParty" directory.
+
+Such components are governed exclusively by their respective license terms,
+which are provided with or referenced alongside those components.
+
+This License does not replace, restrict, or supersede third-party license
+terms applicable to those components. In the event of a conflict, the
+applicable third-party license shall govern the relevant component.
+
+7. Termination
+
+Any rights granted to you under this License may be terminated if you
+materially breach its terms, subject to any applicable legal requirements.
+
+Upon termination, you must cease all use of the Software and delete copies
+in your possession or control, except where retention is required or
+permitted by applicable law.
+
+Termination does not affect any rights, obligations, or remedies that
+accrued before termination.
+
+8. Disclaimer of Warranty and Limitation of Liability
+
+To the maximum extent permitted by applicable law, the Software is provided
+"AS IS" and "AS AVAILABLE", without warranties of any kind, whether express
+or implied, including warranties of merchantability, fitness for a
+particular purpose, availability, or non-infringement.
+
+Nothing in this License excludes or limits liability where such exclusion or
+limitation is prohibited by applicable law, including liability for
+intentional misconduct, gross negligence, injury to life, body or health, or
+other liability that cannot legally be excluded or limited.
+
+Subject to the foregoing, the copyright holder shall not be liable for
+damages arising from the use or inability to use the Software, to the extent
+permitted by applicable law.
+
+9. General Provisions
+
+Nothing in this License shall exclude, restrict, or affect any rights
+granted under applicable law that cannot legally be excluded, restricted, or
+waived.
+
+If any provision of this License is found invalid, unenforceable, or
+unlawful, the remaining provisions shall remain in full force and effect to
+the extent permitted by law.
+
+This License constitutes the terms governing the rights expressly granted
+concerning the Software, subject to any separate written agreement between
+the copyright holder and an authorized user.
+
+All rights not expressly granted are reserved by the copyright holder.
+
+10. Applicable Law
+
+This License shall be governed by the laws of the Federal Republic of
+Germany, insofar as such choice of law is legally permissible.
+
+Mandatory consumer protection laws and other mandatory provisions applicable
+to the licensee shall remain unaffected.

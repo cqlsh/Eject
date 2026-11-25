@@ -1,0 +1,90 @@
+{
+    "version": 6,
+    "configurePresets": [
+        {
+            "name": "Windows-Base",
+            "hidden": true,
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/Build/${presetName}",
+            "architecture": {
+                "value": "x64",
+                "strategy": "external"
+            },
+            "toolset": {
+                "value": "host=x64",
+                "strategy": "external"
+            },
+            "cacheVariables": {
+                "CMAKE_CXX_COMPILER": "cl"
+            },
+            "condition": {
+                "type": "equals",
+                "lhs": "${hostSystemName}",
+                "rhs": "Windows"
+            }
+        },
+        {
+            "name": "Windows-Debug",
+            "inherits": "Windows-Base",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        },
+        {
+            "name": "Windows-Release",
+            "inherits": "Windows-Base",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "Windows-Base",
+            "hidden": true,
+            "condition": {
+                "type": "equals",
+                "lhs": "${hostSystemName}",
+                "rhs": "Windows"
+            }
+        },
+        {
+            "name": "Windows-Debug",
+            "inherits": "Windows-Base",
+            "configurePreset": "Windows-Debug"
+        },
+        {
+            "name": "Windows-Release",
+            "inherits": "Windows-Base",
+            "configurePreset": "Windows-Release"
+        }
+    ],
+    "workflowPresets": [
+        {
+            "name": "Windows-Debug",
+            "steps": [
+                {
+                    "type": "configure",
+                    "name": "Windows-Debug"
+                },
+                {
+                    "type": "build",
+                    "name": "Windows-Debug"
+                }
+            ]
+        },
+        {
+            "name": "Windows-Release",
+            "steps": [
+                {
+                    "type": "configure",
+                    "name": "Windows-Release"
+                },
+                {
+                    "type": "build",
+                    "name": "Windows-Release"
+                }
+            ]
+        }
+    ]
+}

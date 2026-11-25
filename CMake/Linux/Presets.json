@@ -1,0 +1,82 @@
+{
+    "version": 6,
+    "configurePresets": [
+        {
+            "name": "Linux-Base",
+            "hidden": true,
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/Build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_CXX_COMPILER": "g++"
+            },
+            "condition": {
+                "type": "equals",
+                "lhs": "${hostSystemName}",
+                "rhs": "Linux"
+            }
+        },
+        {
+            "name": "Linux-Debug",
+            "inherits": "Linux-Base",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        },
+        {
+            "name": "Linux-Release",
+            "inherits": "Linux-Base",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "Linux-Base",
+            "hidden": true,
+            "condition": {
+                "type": "equals",
+                "lhs": "${hostSystemName}",
+                "rhs": "Linux"
+            }
+        },
+        {
+            "name": "Linux-Debug",
+            "inherits": "Linux-Base",
+            "configurePreset": "Linux-Debug"
+        },
+        {
+            "name": "Linux-Release",
+            "inherits": "Linux-Base",
+            "configurePreset": "Linux-Release"
+        }
+    ],
+    "workflowPresets": [
+        {
+            "name": "Linux-Debug",
+            "steps": [
+                {
+                    "type": "configure",
+                    "name": "Linux-Debug"
+                },
+                {
+                    "type": "build",
+                    "name": "Linux-Debug"
+                }
+            ]
+        },
+        {
+            "name": "Linux-Release",
+            "steps": [
+                {
+                    "type": "configure",
+                    "name": "Linux-Release"
+                },
+                {
+                    "type": "build",
+                    "name": "Linux-Release"
+                }
+            ]
+        }
+    ]
+}

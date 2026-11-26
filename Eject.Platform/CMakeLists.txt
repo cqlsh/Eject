@@ -1,0 +1,1 @@
+eject_add_module(Platform)

@@ -1,0 +1,1 @@
+target_link_options(Eject.Shared PRIVATE /EXPORT:scs_telemetry_init /EXPORT:scs_telemetry_shutdown)
